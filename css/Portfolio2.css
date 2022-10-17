@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+.hide {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+
+/* header */
+
+div#header {
+    background-color: rgb(244, 244, 244);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+div#header>header {
+    width: 98%
+        /*  1400px */
+    ;
+    margin: 0 auto;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+
+div#header>header>h1 {
+    float: left;
+}
+
+div#header>header>h1>a>img {
+    width: 150px;
+}
+
+div#header>header>nav {
+    width: 66.66666666666667%
+        /* 1200px */
+    ;
+    float: left;
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+}
+
+div#header>header>nav>ul {
+    display: flex;
+}
+
+div#header>header>nav>ul:nth-child(3) {
+    position: absolute;
+    flex-direction: row-reverse;
+    top: 10px;
+    right: 0px;
+}
+
+div#header>header>nav>ul>li {
+    margin: 20px 20px;
+    font: 20px '나눔스퀘어', sans-serif;
+}
+
+div#header>header>nav>ul>li:hover {
+    transform: scale(1.2);
+}
+
+/* box06 */
+
+div#box06 {
+    background: url('../image/wrap2/상부\ 백그라운드-02.jpg') no-repeat center top;
+    background-size: 100vw 400px;
+    height: 400px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+div#box06>h3 {
+    padding-top: 150px;
+    text-align: center;
+    font: bold 72px '나눔스퀘어', sans-serif;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* main */
+
+div#box07 {
+    width: 85%
+        /* 1400px */
+    ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 233px;
+}
+
+
+/* main>aside */
+
+div#box07>aside {
+    width: 233px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+div#box07>aside>div {
+    margin-bottom: 20px;
+}
+
+
+/* Kategorie */
+
+div#box07>aside:nth-child(1)>div>h4 {
+    font: bold 20px '나눔스퀘어', sans-serif;
+    margin-bottom: 10px;
+}
+
+div#box07>aside:nth-child(1)>div>ul>li {
+    font: 18px /27px '나눔스퀘어', sans-serif;
+}
+
+
+/* color */
+
+div#box07>aside>div.color>dl>dt {
+    font: bold 20px '나눔스퀘어', sans-serif;
+    margin-bottom: 10px;
+}
+
+div#box07>aside>div.color>dl>dd {
+    margin-left: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+div#box07>aside>div.color>dl>dd:nth-child(2) {
+    border: 1px solid #333;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+div#box07>aside>div.color>dl>dd:nth-child(3) {
+    background-color: blanchedalmond;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+div#box07>aside>div.color>dl>dd:nth-child(4) {
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+
+div#box07>aside>div.color>dl>dd:nth-child(5) {
+    background-color: rgb(63, 48, 17);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+div#box07>aside>div.color>dl>dd:nth-child(6) {
+    background: url('../image/wrap2/color.png') no-repeat;
+    background-size: 20px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+/* price */
+
+div#box07>aside>div.price>dl>dt {
+    font: bold 20px '나눔스퀘어', sans-serif;
+    margin-bottom: 10px;
+}
+
+div#box07>aside>div.price>dl>dd {
+    margin-bottom: 20px;
+}
+
+/*  */
+div#box08>div.main {
+    /* overflow: hidden; */
+    width: 1370px;
+}
+
+div#box08>div>div.all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#box08>div>div>figure {
+    margin: 20px;
+}
+
+div#box08>div>div>figure>img {
+    width: 410px;
+    margin-bottom: 10px;
+}
+
+/* main>article */
+
+div#box07>article>header>h4 {
+    margin-left: 20px;
+    font: bold 20px '나눔스퀘어', sans-serif;
+}
+
+
+#box07 .box>p {
+    display: inline-block;
+    width: 15px;
+    margin-bottom: 30px;
+}
+
+#box07 .box>p>img {
+    width: 100%;
+}
+
+#box07 .box>p.next {
+    margin-left: 20px;
+}
+
+
+/* footer */
+
+footer {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: rgb(153, 153, 153);
+}
+
+footer>dl {
+    margin: 0 auto;
+    padding: 50px 0px;
+    width: 1400px;
+    display: flex;
+}
+
+footer>dl>dt {
+    float: left;
+}
+
+footer>dl>dt>img {
+    width: 150px;
+}
+
+footer>dl>dd {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer>dl>dd>dl {
+    width: 155px;
+}
+
+footer>dl>dd>dl>dt {
+    font: bold 15px /40px '나눔스퀘어', sans-serif;
+}
+
+footer>dl>dd>dl>dd {
+    font: 15px /30px '나눔스퀘어', sans-serif
+}
